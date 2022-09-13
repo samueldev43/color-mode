@@ -16,7 +16,7 @@ div {
     font-size: 40px;
     font-weight: 100;
     font-family: cursive;
-    color: ${(props) => props.isTrue ? '#ffffff' : '#282828'};
+    color: ${(props) => props.isTrue ? '#ffffff' : '#141414'};
     position: relative;
     left: 10%;
 }
@@ -27,6 +27,7 @@ button {
     border-radius: 50%;
     border: 0;
     background: transparent;
+    cursor: pointer;
 
     svg {
         width: 100%;
@@ -45,5 +46,5 @@ button {
 export const ContainerDiv = styled.div<ContainerProps>`
 width: 100%;
 height: 100vh;
-background: ${(props) => props.isTrue ? '#282828' : '#a8a8b3'};
+background: ${(props) => props.isTrue ? '#141414' : '#a8a8b3'};
 `
