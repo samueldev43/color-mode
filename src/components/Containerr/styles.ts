@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 interface ContainerProps {
-    isTrue: boolean
+    isTrue: boolean;
 }
 
 export const ContainerHeader = styled.header<ContainerProps>`
