@@ -7,10 +7,10 @@ interface ContainerProps {
 export const ContainerHeader = styled.header<ContainerProps>`
 height: 80px;
 padding: 1rem;
-background: #f0f0f5;
+background: #f0f0f4;
 display: flex;
 justify-content: space-between;
-background: ${(props) => props.isTrue ? '#202020' : '#f0f0f5'};
+background: ${(props) => props.isTrue ? '#202020' : '#f0f0f4'};
 
 div {
     font-size: 40px;
@@ -33,7 +33,7 @@ button {
         width: 100%;
         height: 50px;
         transition: 0.4s;
-        color: ${(props) => props.isTrue ? '#f0f0f5' : '#000000'};
+        color: ${(props) => props.isTrue ? '#f0f0f4' : '#000000'};
 
         &:hover {
             color: #a0a0b3;
