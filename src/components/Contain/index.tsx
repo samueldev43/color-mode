@@ -1,7 +1,5 @@
 import React, { useCallback, useState } from 'react';
-
 import {ContainerHeader, ContainerDiv} from './styles'
-
 import {WiMoonAltWaningCrescent1} from 'react-icons/wi'
 
 

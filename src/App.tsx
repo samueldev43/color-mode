@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Container} from './components/Containerr'
+import {Container} from './components/Contain'
 
 
 const App:React.FC = () => {

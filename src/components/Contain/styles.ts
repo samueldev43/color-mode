@@ -10,7 +10,7 @@ padding: 1rem;
 background: #f0f0f5;
 display: flex;
 justify-content: space-between;
-background: ${(props) => props.isTrue ? '#202020' : '#f0f0f1'};
+background: ${(props) => props.isTrue ? '#202020' : '#f0f0f5'};
 
 div {
     font-size: 40px;
@@ -33,7 +33,7 @@ button {
         width: 100%;
         height: 50px;
         transition: 0.4s;
-        color: ${(props) => props.isTrue ? '#f0f0f1' : '#000000'};
+        color: ${(props) => props.isTrue ? '#f0f0f5' : '#000000'};
 
         &:hover {
             color: #a0a0b3;
@@ -46,5 +46,5 @@ button {
 export const ContainerDiv = styled.div<ContainerProps>`
 width: 100%;
 height: 100vh;
-background: ${(props) => props.isTrue ? '#141414' : '#a8a8b3'};
+background: ${(props) => props.isTrue ? '#141414' : '#f0f0f1'};
 `
