@@ -10,7 +10,7 @@ padding: 1rem;
 background: #f0f0f5;
 display: flex;
 justify-content: space-between;
-background: ${(props) => props.isTrue ? '#202020' : '#f0f0f5'};
+background: ${(props) => props.isTrue ? '#202020' : '#f0f0f6'};
 
 div {
     font-size: 40px;
