@@ -10,7 +10,7 @@ padding: 1rem;
 background: #f0f0f5;
 display: flex;
 justify-content: space-between;
-background: ${(props) => props.isTrue ? '#202020' : '#f0f0f6'};
+background: ${(props) => props.isTrue ? '#202020' : '#f0f0f5'};
 
 div {
     font-size: 40px;
@@ -41,7 +41,6 @@ button {
     }
 }
 `
-
 
 export const ContainerDiv = styled.div<ContainerProps>`
 width: 100%;
