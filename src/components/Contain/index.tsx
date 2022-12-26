@@ -16,7 +16,7 @@ export const Container: React.FC = () => {
                 <div>Logo</div>
 
                 <button onClick={setValue}>
-                    <WiMoonAltWaningCrescent1 />
+                  <WiMoonAltWaningCrescent1 />
                 </button>
             </ContainerHeader>
 
